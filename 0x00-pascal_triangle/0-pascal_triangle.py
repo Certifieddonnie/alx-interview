@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-# This Script solves the pascal principle
+"""This Script solves the pascal principle"""
+
 
 def factorial(num):
     """ Factorial Function """
