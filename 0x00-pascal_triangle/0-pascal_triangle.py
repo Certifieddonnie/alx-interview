@@ -13,7 +13,7 @@ def pascal_triangle(n):  # n = number
     """ Pascal function """
     triangle = []  # empty list
     if (n <= 0):  # conditional statement for number less than 1
-        return [[]]
+        return triangle
     for x in range(0, n):  # iterate through 0 to (number-1) x is row number
         temp = []  # temporary empty list
         for y in range(0, x+1):  # iterate through 0 to(x+1) y is column number
